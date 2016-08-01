@@ -2,8 +2,8 @@ FROM ruby:2.1
 MAINTAINER Carlos Lopes <carlos.lopes@codeminer42.com>
 
 # Install dependencies
-RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y \
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
       git \
       wget \
       libfreetype6 \
@@ -27,7 +27,7 @@ RUN mkdir -p /srv/var && \
     mv /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64/ /srv/var/phantomjs && \
     ln -s /srv/var/phantomjs/bin/phantomjs /usr/bin/phantomjs
 
-# Install npm
+# Install node / npm
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 4.4.7
 
