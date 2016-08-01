@@ -12,9 +12,9 @@ The following dependencies are being installed on all images:
 
 We currently have images for the following Rubies.
 
-- 2.3, latest
-- 2.2
-- 2.1
+- `2.3`, `latest`
+- `2.2`
+- `2.1`
 
 ## Contributing
 
