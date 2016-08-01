@@ -13,7 +13,8 @@ RUN apt-get update && \
       gstreamer1.0-plugins-base \
       gstreamer1.0-tools \
       gstreamer1.0-x \
-      xvfb
+      xvfb \
+      xauth
 
 # Install Phantom.js
 ENV PHANTOMJS_VERSION 1.9.8
