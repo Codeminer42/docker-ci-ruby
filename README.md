@@ -5,8 +5,10 @@ These files are used to generate the docker images used by Gitlab CI
 ## Dependencies
 
 The following dependencies are being installed on all images:
-* PhantomJS v1.9.8
+
 * Node.js v4.4.7 and npm
+* PhantomJS v1.9.8
+* Qt v5
 
 ## Tags
 
