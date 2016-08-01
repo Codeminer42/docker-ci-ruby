@@ -14,9 +14,15 @@ The following dependencies are being installed on all images:
 
 We currently have images for the following Rubies.
 
+### CRuby images
+
 - `2.3`, `latest`
 - `2.2`
 - `2.1`
+
+### JRuby images
+
+- `9.1-jruby`
 
 ## Contributing
 
