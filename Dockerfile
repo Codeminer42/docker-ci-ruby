@@ -1,4 +1,4 @@
-FROM ruby:2.1
+FROM ruby:2.2
 MAINTAINER Carlos Lopes <carlos.lopes@codeminer42.com>
 
 # Install dependencies
