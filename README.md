@@ -1,6 +1,6 @@
 # Codeminer42 Ruby Image for CI builds
 
-These files are used to generate the docker images used by Gitlab CI
+Docker Ruby images used by Gitlab CI.
 
 ## Dependencies
 
@@ -16,13 +16,13 @@ We currently have images for the following Rubies.
 
 ### CRuby images
 
-- `2.3`, `latest`
-- `2.2`
-- `2.1`
+- `2.3`, `latest` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/2.3/Dockerfile)
+- `2.2` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/2.2/Dockerfile)
+- `2.1` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/2.2/Dockerfile)
 
 ### JRuby images
 
-- `9.1-jruby`
+- `9.1-jruby` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/9.1-jruby/Dockerfile)
 
 ## Contributing
 
