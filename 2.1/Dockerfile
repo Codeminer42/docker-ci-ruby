@@ -12,7 +12,8 @@ RUN apt-get update && \
       libqt5webkit5-dev \
       gstreamer1.0-plugins-base \
       gstreamer1.0-tools \
-      gstreamer1.0-x
+      gstreamer1.0-x \
+      xvfb
 
 # Install Phantom.js
 ENV PHANTOMJS_VERSION 1.9.8

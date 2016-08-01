@@ -8,7 +8,7 @@ The following dependencies are being installed on all images:
 
 * Node.js v4.4.7 and npm
 * PhantomJS v1.9.8
-* Qt v5
+* Qt v5 and Xvbf (only on CRuby images)
 
 ## Tags
 
