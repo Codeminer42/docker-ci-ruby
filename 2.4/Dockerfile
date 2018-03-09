@@ -61,5 +61,6 @@ RUN curl -sSLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux
 
 # Generate and set locales
 RUN echo "en_US UTF-8" > /etc/locale.gen && \
-    locale-gen en_US.UTF-8
+    locale-gen en_US.UTF-8 && \
+    echo -e 'LANG=en_US.UTF-8\nLC_ALL=en_US.UTF-8' > /etc/default/locale
 
