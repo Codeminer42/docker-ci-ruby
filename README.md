@@ -6,7 +6,7 @@ Docker Ruby images used by Gitlab CI.
 
 The following dependencies are being installed on all images:
 
-* Node.js v6.11.1 and npm
+* Node.js v8.11.1 and npm
 * PhantomJS v2.1.1
 * Qt v5 and Xvbf (only on CRuby images)
 * Chrome Webdriver (latest stable)
