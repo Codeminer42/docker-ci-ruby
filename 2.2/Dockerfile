@@ -22,7 +22,6 @@ RUN apt-get update && \
       unzip \
       fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic \
       xauth && \
-      locales && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Chrome WebDriver
@@ -58,9 +57,3 @@ RUN curl -sSLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux
     tar -xJf "node-v$NODE_VERSION-linux-x64.tar.xz" -C /usr/local --strip-components=1 && \
     rm -f "node-v$NODE_VERSION-linux-x64.tar.xz" && \
     npm install npm -g
-
-# Generate and set locales
-RUN echo "en_US UTF-8" > /etc/locale.gen && \
-    locale-gen en_US.UTF-8 && \
-    echo -e 'LANG=en_US.UTF-8\nLC_ALL=en_US.UTF-8' > /etc/default/locale
-
