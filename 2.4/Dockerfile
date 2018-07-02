@@ -21,7 +21,8 @@ RUN apt-get -yqq update && \
       xvfb \
       unzip \
       fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic \
-      xauth && \
+      xauth \
+      libssl-dev && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Chrome WebDriver
