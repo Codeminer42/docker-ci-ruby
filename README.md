@@ -26,7 +26,7 @@ We currently have images for the following Rubies.
 
 ### JRuby images
 
-- `9.1-jruby` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/9.1-jruby/Dockerfile)
+- `9.1-jruby`, `jruby` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/9.1-jruby/Dockerfile)
 
 ## Contributing
 
