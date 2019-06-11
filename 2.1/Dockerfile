@@ -1,4 +1,4 @@
-FROM ruby:2.1
+FROM ruby:2.1.5
 MAINTAINER Carlos Lopes <carlos.lopes@codeminer42.com>
 
 # Add Google Chrome PPA
