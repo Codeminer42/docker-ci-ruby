@@ -8,7 +8,8 @@ The following dependencies are being installed on all images:
 
 * Node.js and npm
   * v6.11.1 (9.1-jruby)
-  * v8.11.1 (2.1, 2.2, 2.3, 2.5)
+  * v8.11.1 (2.1, 2.2, 2.3)
+  * v8.17.0 (2.4, 2.5)
   * v12.16.1 (2.6, 2.7)
 * PhantomJS v2.1.1
 * Qt v5 and Xvbf (only on CRuby images)
