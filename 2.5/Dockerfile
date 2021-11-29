@@ -12,13 +12,10 @@ RUN apt-get -yqq update && \
       libfreetype6 \
       libfontconfig \
       bzip2 \
-      qt5-default \
-      libqt5webkit5-dev \
       gstreamer1.0-plugins-base \
       gstreamer1.0-tools \
       gstreamer1.0-x \
       google-chrome-stable \
-      xvfb \
       unzip \
       fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic \
       xauth \
