@@ -49,7 +49,7 @@ RUN curl -sSLO "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$PHANT
 
 # Install node / npm
 ENV NPM_CONFIG_LOGLEVEL info
-ENV NODE_VERSION 8.17.0
+ENV NODE_VERSION 16.13.1
 
 RUN curl -sSLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.xz" && \
     tar -xJf "node-v$NODE_VERSION-linux-x64.tar.xz" -C /usr/local --strip-components=1 && \
