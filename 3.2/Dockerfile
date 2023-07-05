@@ -17,7 +17,7 @@ RUN apt-get -yqq update && \
       gstreamer1.0-x \
       google-chrome-stable \
       unzip \
-      fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic \
+      fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable \
       xauth \
       libssl-dev && \
     rm -rf /var/lib/apt/lists/*
