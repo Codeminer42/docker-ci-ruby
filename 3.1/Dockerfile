@@ -15,7 +15,6 @@ RUN apt-get -yqq update && \
       gstreamer1.0-plugins-base \
       gstreamer1.0-tools \
       gstreamer1.0-x \
-      google-chrome-stable \
       unzip \
       fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable \
       xauth \
@@ -28,8 +27,8 @@ RUN CHROMEDRIVER_VERSION=117.0.5938.62 && \
     curl -sS -o /tmp/chromedriver_linux64.zip https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/$CHROMEDRIVER_VERSION/linux64/chromedriver-linux64.zip && \
     unzip -qq /tmp/chromedriver_linux64.zip -d /opt/chromedriver-$CHROMEDRIVER_VERSION && \
     rm /tmp/chromedriver_linux64.zip && \
-    chmod +x /opt/chromedriver-$CHROMEDRIVER_VERSION/chromedriver && \
-    ln -fs /opt/chromedriver-$CHROMEDRIVER_VERSION/chromedriver /usr/local/bin/chromedriver
+    chmod +x /opt/chromedriver-$CHROMEDRIVER_VERSION/chromedriver-linux64/chromedriver && \
+    ln -fs /opt/chromedriver-$CHROMEDRIVER_VERSION/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
 
 # Default configuration
 ENV DISPLAY :20.0
