@@ -7,6 +7,7 @@ Docker Ruby images used by Gitlab CI.
 The following dependencies are being installed on all images:
 
 * Node.js v18.17.1 (with npm)
+* Google Chrome (latest stable)
 * Chrome Webdriver (version 117.0.5938.62)
 
 ## Tags
