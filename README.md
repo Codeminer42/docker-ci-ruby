@@ -8,7 +8,7 @@ The following dependencies are being installed on all images:
 
 * Node.js v18.17.1 (with npm)
 * Google Chrome (latest stable)
-* Chrome Webdriver (version 120.0.6099.71)
+* Chrome Webdriver (version 125.0.6422.112)
 
 ## Tags
 
