@@ -23,7 +23,7 @@ RUN apt-get -yqq update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Chrome WebDriver
-RUN CHROMEDRIVER_VERSION=125.0.6422.78 && \
+RUN CHROMEDRIVER_VERSION=128.0.6613.84 && \
     mkdir -p /opt/chromedriver-$CHROMEDRIVER_VERSION && \
     curl -sS -o /tmp/chromedriver_linux64.zip https://storage.googleapis.com/chrome-for-testing-public/$CHROMEDRIVER_VERSION/linux64/chromedriver-linux64.zip && \
     unzip -qq /tmp/chromedriver_linux64.zip -d /opt/chromedriver-$CHROMEDRIVER_VERSION && \
