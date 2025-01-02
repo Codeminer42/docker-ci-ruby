@@ -16,7 +16,6 @@ We currently have images for the following Rubies.
 
 ### CRuby images
 
-- `latest`, `latest` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/latest/Dockerfile)
 - `3.4`, `latest stable` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/3.4/Dockerfile)
 - `3.3`, [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/3.3/Dockerfile)
 - `3.2` [Dockerfile](https://github.com/Codeminer42/docker-ci-ruby/blob/master/3.2/Dockerfile)
