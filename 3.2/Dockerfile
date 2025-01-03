@@ -1,5 +1,5 @@
 FROM ruby:3.2
-MAINTAINER Codeminer42 <contact@codeminer42.com>
+LABEL org.opencontainers.image.authors="contact@codeminer42.com"
 
 # Add Google Chrome PPA
 RUN curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
@@ -40,12 +40,11 @@ ENV CHROMEDRIVER_URL_BASE ''
 
 # Install node / npm
 ENV NPM_CONFIG_LOGLEVEL info
-ENV NODE_VERSION 18.17.1
+ENV NODE_VERSION 22.12.0
 
 RUN curl -sSLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.xz" && \
     tar -xJf "node-v$NODE_VERSION-linux-x64.tar.xz" -C /usr/local --strip-components=1 && \
-    rm -f "node-v$NODE_VERSION-linux-x64.tar.xz" && \
-    npm install npm -g
+    rm -f "node-v$NODE_VERSION-linux-x64.tar.xz"
 
 # Encoding
 ENV LANG C.UTF-8
